@@ -15,6 +15,7 @@
 - after file being compiled, a `js` version of the file is being created:
   <img src='images/newFile.png' width=200>
 - the compiled `js` file is converting by default to ES5:
+
   <img src='images/compiled.png' width=200>
 
 ### Watch a file
