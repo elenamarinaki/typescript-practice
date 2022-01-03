@@ -4,3 +4,4 @@ let id: number = 5;
 // id = "5";
 
 id = 7;
+id = id + 1;

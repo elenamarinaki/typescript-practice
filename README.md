@@ -20,3 +20,10 @@
 ### Watch a file
 
 - `tsc --watch [filename]`
+
+### Configuration file
+
+- `tsc --init` => creates `tsconfig.json`
+- under `compilerOptions`, change the `target` to `es6`
+- run `tsc` again (no filename needed) and new `js` files is being created:
+  <img src='images/compileES6.png' width=300>
