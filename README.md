@@ -33,3 +33,7 @@
 
 - the `typescript` files are in a separated source folder and the javascript files in a `dist` folder
 - have to specify `"outDir": "./dist"` and `"rootDir": "./src"`
+
+### Interesting!
+
+check how the `enum` is being compliled into in the `js` file!
