@@ -1,13 +1,13 @@
-## Typescript practice 🫐
+# Typescript practice 🫐
 
 <img src='https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif' width=200>
 
-### Install `typescript`
+## Install `typescript`
 
 - `sudo npm i -g typescript`
 - check version: `tsc -v`
 
-### Compile a `typescript` file
+## Compile a `typescript` file
 
 - `tsc [filename]`
 - compiling the file will show all possible errors:
@@ -18,13 +18,18 @@
 
   <img src='images/compiled.png' width=200>
 
-### Watch a file
+## Watch a file
 
 - `tsc --watch [filename]`
 
-### Configuration file
+## Configuration file
 
 - `tsc --init` => creates `tsconfig.json`
 - under `compilerOptions`, change the `target` to `es6`
 - run `tsc` again (no filename needed) and new `js` files is being created:
   <img src='images/compileES6.png' width=300>
+
+## Project structure
+
+- the `typescript` files are in a separated source folder and the javascript files in a `dist` folder
+- have to specify `"outDir": "./dist"` and `"rootDir": "./src"`
