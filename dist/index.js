@@ -17,3 +17,13 @@ console.log("ID is: ", id);
 ids.push(6);
 // Tuple
 let person = [1, "Elena", true];
+// Tuple array
+let employee;
+employee = [
+    [1, "Elena"],
+    [2, "Marika"],
+];
+// Unions
+let pid;
+pid = 22;
+pid = "22";

@@ -22,3 +22,16 @@ ids.push(6);
 
 // Tuple
 let person: [number, string, boolean] = [1, "Elena", true];
+// Tuple array
+let employee: [number, string][];
+
+employee = [
+  [1, "Elena"],
+  [2, "Marika"],
+];
+
+// Unions
+let pid: string | number;
+
+pid = 22;
+pid = "22";
