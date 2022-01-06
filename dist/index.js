@@ -73,3 +73,8 @@ function log(message) {
 }
 log(4);
 log("marikaaaaaaa");
+const user3 = {
+    id: 5,
+    name: "Johnny",
+};
+const p1 = 1;

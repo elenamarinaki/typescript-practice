@@ -38,3 +38,10 @@
 ### Interesting! 🤓
 
 check how the `enum` is being compliled into in the `js` file!
+
+## Interfaces 🚦
+
+- NOT used with primitives
+- used with objects
+- optional properties
+- `readonly` properties

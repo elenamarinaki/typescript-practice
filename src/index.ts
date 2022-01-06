@@ -97,3 +97,25 @@ function log(message: string | number): void {
 
 log(4);
 log("marikaaaaaaa");
+
+// Interfaces
+// in interfaces we don't need the = sign
+interface UserInterface {
+  readonly id: number;
+  name: string;
+  age?: number;
+}
+
+const user3: UserInterface = {
+  id: 5,
+  name: "Johnny",
+};
+
+// ⚠️ error!
+// user3.id = 8;
+
+// ----------- can you use Interfaces with primitives, eg Unions?
+// answer: NO!!
+// we have to use type ✨
+type Point = number | string;
+const p1: Point = 1;
