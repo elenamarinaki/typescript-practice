@@ -52,3 +52,13 @@ console.log("Direction2 - Up is: ", Direction2.Up);
 console.log("Direction2 - Down is: ", Direction2.Down);
 console.log("Direction2 - Left is: ", Direction2.Left);
 console.log("Direction2 - Right is: ", Direction2.Right);
+const user = {
+    id: 1,
+    name: "John",
+};
+// Type assertion
+let cid = 1;
+// let customerId = <User>cid;
+// OR...
+let customerId = cid;
+customerId = { id: 345, name: "Marika" };
