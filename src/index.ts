@@ -82,3 +82,18 @@ let cid: any = 1;
 let customerId = cid as User;
 
 customerId = { id: 345, name: "Marika" };
+
+// Functions
+function addNum(x: number, y: number): number {
+  return x + y;
+}
+
+console.log("addNum is: ", addNum(1, 2));
+
+// Void
+function log(message: string | number): void {
+  console.log(message);
+}
+
+log(4);
+log("marikaaaaaaa");

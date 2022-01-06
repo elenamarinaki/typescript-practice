@@ -62,3 +62,14 @@ let cid = 1;
 // OR...
 let customerId = cid;
 customerId = { id: 345, name: "Marika" };
+// Functions
+function addNum(x, y) {
+    return x + y;
+}
+console.log("addNum is: ", addNum(1, 2));
+// Void
+function log(message) {
+    console.log(message);
+}
+log(4);
+log("marikaaaaaaa");
